@@ -2,7 +2,9 @@
 ### FullStack - HTML, CSS, JavaScript, Bootstrap, Node.
 ##
 
-
+<p align="center">
+  <img alt="...." src="./assets/fontawesome-free-6.3.0-web.zip" width="80%">
+</p>
 
 
 ### 1 - INTRODUÇÃO AO PROJETO
