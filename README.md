@@ -3,7 +3,7 @@
 ##
 
 <p align="center">
-  <img alt="...." src="./assets/fontawesome-free-6.3.0-web.zip" width="80%">
+  <img alt="...." src="./assets/Full-Stack-Developer-980x462-1.png" width="80%">
 </p>
 
 
