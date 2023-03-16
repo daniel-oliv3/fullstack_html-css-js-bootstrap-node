@@ -99,16 +99,31 @@
 **Font Awesome**
 
 - FontAwesome
-    - https://fontawesome.com/
+    - Site: https://fontawesome.com/
 
 
 
 
 
+### 3 - ORGANIZAÇÃO DO LAYOUT DA PÁGINA PRINCIPAL PARTE 1
 
 
+**Font Awesome**
+
+- FontAwesome
+    - Site: https://fontawesome.com/
+
+**Favicon**
+
+- Free Favicon
+    - Site: http://freefavicon.com/freefavicons/
+
+- Icon Icons
+    - Site: https://icon-icons.com/pt/
 
 
+- Exemplo
+    - fullstack_03
 
 
 
