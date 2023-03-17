@@ -122,6 +122,49 @@
     - Site: https://icon-icons.com/pt/
 
 
+**Emmet abrevietion**
+
+
+- Emmet abrevietion
+```html
+<!-- comando/atalho
+
+    .container.mt-5>.row>(.col)*2
+
+-->
+
+<!-- Resultado -->
+    <div class="container mt-5">
+		<div class="row">
+			<div class="col"></div>
+			<div class="col"></div>
+		</div>
+	</div>
+```
+
+
+- Emmet abrevietion
+```html
+<!-- comando/atalho
+
+    .row>.col.text-center
+
+-->
+
+<!-- Resultado -->
+    <div class="row">
+		<div class="col text-center"></div>
+	</div>
+```
+
+**Bootstrap**
+
+
+- Bootstrap
+    - Site: https://getbootstrap.com/
+    - Forms: https://getbootstrap.com/docs/5.3/forms/select/
+
+
 - Exemplo
     - fullstack_03
 

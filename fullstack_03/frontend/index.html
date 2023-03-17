@@ -10,22 +10,44 @@
 	<link rel="shortcut icon" href="./assets/img/favicon.ico"/>
 </head>
 <body>
-	<!-- ======= Nav ======= -->
+	<!-- ======= Content ======= -->
+	<div class="container my-5">
+		<div class="row mb-4">
+			<div class="col">
+				<h1>Lista de Tarefas</h1>
+			</div>
+			<div class="col text-end">
+				<div class="d-flex justify-content-end">
+					<select id="select_filter" class="form-select w-50 me-3">
+						<option value=""></option>
+						<option value="">filtro 1</option>
+					</select>
+					<a href="new_task.html" class="btn btn-primary"><i class="fa-solid fa-plus me-2"></i>Nova tarefa</a>
+				</div>
+			</div>
+		</div>
 
-	<h1>Olá Mundo! Sapup3 Na Área!</h1>
+		<div class="row d-none" id="no_tasks">
+			<div class="col text-center">
+				<span class="opacity-75">Não existem tarefas para apresentar</span>
+			</div>
+		</div>
 
-	
-	<h3><i class="fa-solid fa-magnifying-glass-plus"></i> Search</h3>
-
-
-
-
-
+	</div>
 
 
+
+
+
+
+	<!-- Bootstrap -->
 	<script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
+
+
 
 <!--
     Autor: Daniel Oliveira
