@@ -122,10 +122,10 @@
     - Site: https://icon-icons.com/pt/
 
 
-**Emmet abrevietion**
+**Emmet abbreviation**
+- Teclas de atalho VSCode
 
-
-- Emmet abrevietion
+- Exemplo 1
 ```html
 <!-- comando/atalho
 
@@ -134,16 +134,16 @@
 -->
 
 <!-- Resultado -->
-    <div class="container mt-5">
-		<div class="row">
-			<div class="col"></div>
-			<div class="col"></div>
-		</div>
+<div class="container mt-5">
+	<div class="row">
+		<div class="col"></div>
+		<div class="col"></div>
 	</div>
+</div>
 ```
 
 
-- Emmet abrevietion
+- Exemplo 2
 ```html
 <!-- comando/atalho
 
@@ -152,10 +152,11 @@
 -->
 
 <!-- Resultado -->
-    <div class="row">
-		<div class="col text-center"></div>
-	</div>
+<div class="row">
+	<div class="col text-center"></div>
+</div>
 ```
+
 
 **Bootstrap**
 
@@ -169,7 +170,63 @@
     - fullstack_03
 
 
+### 4 - ORGANIZAÇÃO DO LAYOUT DA PÁGINA PRINCIPAL PARTE 2
 
+**Emmet abbreviation**
+- Teclas de atalho VSCode
+
+- Exemplo 3
+```html
+<!-- comando/atalho
+
+    div.row>div.col-12
+
+-->
+
+<!-- Resultado -->
+<div class="row">
+	<div class="col-12"></div>
+</div>
+```
+
+- Exemplo 4
+```html
+<!-- comando/atalho
+
+    div.row>(div.col)*4
+
+-->
+
+<!-- Resultado -->
+<div class="row">
+    <div class="col"></div>
+	<div class="col"></div>
+	<div class="col"></div>
+	<div class="col"></div>
+</div>
+```
+
+
+
+**Bootstrap**
+
+- Bootstrap
+    - Site: https://getbootstrap.com/
+    - Forms: https://getbootstrap.com/docs/5.3/forms/select/
+    - Borders: https://getbootstrap.com/docs/5.3/utilities/borders/#border
+    - Shadows: https://getbootstrap.com/docs/5.3/utilities/shadows/#examples
+
+
+**Font Awesome**
+
+- FontAwesome
+    - Site: https://fontawesome.com/
+    - Trash: https://fontawesome.com/icons/trash-can?s=solid&f=classic
+    - Edit: https://fontawesome.com/icons/pen-to-square?s=regular&f=classic
+
+
+- Exemplo
+    - fullstack_04
 
 
 
