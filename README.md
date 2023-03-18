@@ -232,4 +232,99 @@
 
 
 
+### 5 - FINALIZAÇÃO DO LAYOUT DA PÁGINA PRINCIPAL
+
+
+**Font Awesome**
+
+- FontAwesome
+    - Site: https://fontawesome.com/
+    - https://fontawesome.com/icons/circle-chevron-right?s=solid&f=classic
+
+
+
+**Emmet abbreviation**
+- Teclas de atalho VSCode
+
+
+- Exemplo 5
+```html
+<!-- comando/atalho
+    
+    div.row>div.col>h4>span.text-info
+
+-->
+
+<!-- Resultado -->
+<div class="row">
+	<div class="col">
+		<h4><span class="text-info"></span></h4>
+	</div>
+</div>
+```
+
+
+- Exemplo 6
+```html
+<!-- comando/atalho
+    
+    div.row>div.col.text-center
+
+-->
+
+<!-- Resultado -->
+<div class="row">
+	<div class="col text-center">
+
+    </div>
+</div>
+```
+
+
+- Exemplo
+    - fullstack_05
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
