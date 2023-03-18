@@ -55,6 +55,11 @@
 
 
 
+
+
+
+
+
 ### 2 - PREPARAÇÃO DA ESTRUTURA INICIAL DO FRONTEND
 
 - Ver tarefas
@@ -85,6 +90,10 @@
     - Fontawesome
 
 
+**Font Awesome**
+
+- FontAwesome
+    - Site: https://fontawesome.com/
 
 **Bootstrap**
 
@@ -96,10 +105,7 @@
     - fullstack_02
 
 
-**Font Awesome**
 
-- FontAwesome
-    - Site: https://fontawesome.com/
 
 
 
@@ -120,6 +126,7 @@
 
 - Icon Icons
     - Site: https://icon-icons.com/pt/
+
 
 
 **Emmet abbreviation**
@@ -168,6 +175,13 @@
 
 - Exemplo
     - fullstack_03
+
+
+
+
+
+
+
 
 
 ### 4 - ORGANIZAÇÃO DO LAYOUT DA PÁGINA PRINCIPAL PARTE 2
@@ -232,6 +246,12 @@
 
 
 
+
+
+
+
+
+
 ### 5 - FINALIZAÇÃO DO LAYOUT DA PÁGINA PRINCIPAL
 
 
@@ -239,7 +259,7 @@
 
 - FontAwesome
     - Site: https://fontawesome.com/
-    - https://fontawesome.com/icons/circle-chevron-right?s=solid&f=classic
+    - Chevron: https://fontawesome.com/icons/circle-chevron-right?s=solid&f=classic
 
 
 
