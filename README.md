@@ -17,6 +17,18 @@
     - No backend vamos ter uma API NodeJS + Express +MySQL para servir o frontend
 
 
+### Ferramentas do programador
+
+- Browser (Google Chrome)
+    - Site: https://www.google.com/intl/pt-BR/chrome/
+- Visual Studio Code
+    - Site: https://code.visualstudio.com/download
+- Laragon
+    - Site: https://laragon.org/download/
+- HeidiSQL
+    - Site: https://www.heidisql.com/download.php
+
+
 **Base de dados**
 
 
@@ -309,6 +321,42 @@
 
 
 ### 6 - CONSTRUÇÃO DA BASE DE DADOS
+
+- Criação da base da dados `fullstack_stck_db`
+
+
+- Tabela `users`
+```sql
+/*Tabela users (usuários)*/
+CREATE TABLE `users` (
+	`id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`username` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`password` VARCHAR(100) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`created_at` DATETIME NULL DEFAULT NULL,
+	`updated_at` DATETIME NULL DEFAULT NULL,
+	PRIMARY KEY (`id`) USING BTREE
+)
+COLLATE='utf8_unicode_ci'
+ENGINE=InnoDB
+;
+```
+
+- Tabela `tasks`
+```sql
+/*Tabela tasks*/
+CREATE TABLE `tasks` (
+	`id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`id_user` INT(11) NULL DEFAULT NULL,
+	`task_text` VARCHAR(100) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`task_status` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`created_at` DATETIME NULL DEFAULT NULL,
+	`updated_at` DATETIME NULL DEFAULT NULL,
+	PRIMARY KEY (`id`) USING BTREE
+)
+COLLATE='utf8_unicode_ci'
+ENGINE=InnoDB
+;
+```
 
 
 - Exemplo
