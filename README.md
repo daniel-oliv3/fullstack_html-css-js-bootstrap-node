@@ -308,7 +308,11 @@
 
 
 
+### 6 - CONSTRUÇÃO DA BASE DE DADOS
 
+
+- Exemplo
+    - fullstack_06
 
 
 
