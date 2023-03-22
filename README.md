@@ -322,7 +322,7 @@
 
 ### 6 - CONSTRUÇÃO DA BASE DE DADOS
 
-- Criação da base da dados `fullstack_stck_db`
+- Criação da base de dados `fullstack_stck_db`
 
 
 - Tabela `users`
@@ -363,6 +363,32 @@ ENGINE=InnoDB
     - fullstack_06
 
 
+### 7 - FINALIZAÇÃO DOS LAYOUTS RESTANTES
+
+
+**Emmet abbreviation**
+- Teclas de atalho VSCode
+
+- Exemplo 3
+```html
+<!-- comando/atalho
+
+    div.row>div.col
+
+-->
+
+<!-- Resultado -->
+<div class="row">
+	<div class="col">
+        
+	</div>
+</div>
+```
+
+
+
+- Exemplo
+    - fullstack_07
 
 
 
