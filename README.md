@@ -393,11 +393,40 @@ ENGINE=InnoDB
 
 
 
+### 8 - CRIAÇÃO DO SERVIDOR NODEJS + EXPRESS + MYSQL
+
+**Backend**
+
+- Backend
+- Criar um servidor NodeJS + Express + MySQL
+- Criar um endpoint inicial - teste de comunicações
 
 
 
+**Express**
+
+- Instalar o Express
+```
+npm install express
+```
+
+**MySQL**
+
+- Instalar o MySQL
+```
+npm install mysql
+```
+
+**Executar o backend**
+
+- Roda o projeto backend
+```
+node --watch server.js
+```
 
 
+- Exemplo
+    - fullstack_08
 
 
 
