@@ -465,10 +465,16 @@ app.get("/", (req, res) => {
 
 
 
+### 9 - REQUISIÇÃO DE AJAX E ERRO DE CORS
 
 
+- URLs
+- http://localhost:3000
+- http://localhost:3000/user/1
 
 
+- Exemplo
+    - fullstack_09
 
 
 
