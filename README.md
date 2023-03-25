@@ -467,6 +467,12 @@ app.get("/", (req, res) => {
 
 ### 9 - REQUISIÇÃO DE AJAX E ERRO DE CORS
 
+**Backend**
+
+- Roda o projeto backend
+```
+node --watch server.js
+```
 
 - URLs
 - http://localhost:3000
@@ -497,6 +503,30 @@ O acesso para buscar em 'http://localhost:3000/user/1' da origem 'nulo' foi bloq
 
 ### 10 - RESOLUÇÃO DO ERRO DE CORS
 
+**Backend**
+
+- Roda o projeto backend
+```
+node --watch server.js
+```
+
+**Cross-origin resource sharing**
+
+- Wikipedia
+    - Site: https://en.wikipedia.org/wiki/Cross-origin_resource_sharing
+    - Site BR: https://pt.wikipedia.org/wiki/Cross-origin_resource_sharing
+
+**Cors**
+
+- NPM Cors
+    Site: https://www.npmjs.com/package/cors
+
+
+- Instalação do **Cors** via terminal do `backend`
+
+```
+npm install cors
+```
 
 - Exemplo
     - fullstack_10

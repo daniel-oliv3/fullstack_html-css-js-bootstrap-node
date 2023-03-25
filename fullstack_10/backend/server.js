@@ -1,6 +1,7 @@
 /*Server.js*/
 const express = require('express');
 const mysql = require('mysql');
+const cors = require('cors');
 
 // Opções de conexão com o MySQL
 const connection = mysql.createConnection({
@@ -15,6 +16,9 @@ const app = new express();
 app.listen(3000, () => {
     console.log("Servidor iniciado na porta: http://localhost:3000");
 });
+
+
+app.use(cors());
 
 
 /*Rotas*/
