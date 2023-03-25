@@ -476,7 +476,7 @@ app.get("/", (req, res) => {
 - Resolver erro
 - Access-Control-Allow-Origin, header
 
-```txt
+```txt  
 
 Access to fetch at 'http://localhost:3000/user/1' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled
 
@@ -495,11 +495,11 @@ O acesso para buscar em 'http://localhost:3000/user/1' da origem 'nulo' foi bloq
 
 
 
+### 10 - RESOLUÇÃO DO ERRO DE CORS
 
 
-
-
-
+- Exemplo
+    - fullstack_10
 
 
 
