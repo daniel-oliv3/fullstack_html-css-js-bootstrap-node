@@ -533,9 +533,25 @@ npm install cors
 
 
 
+### 11 - REQUISIÇÕES DAS TAREFAS
 
 
+**Font-Awesome**
 
+- Font-Awesome
+    - Site: https://fontawesome.com/
+    - Icons: https://fontawesome.com/icons
+    - Free: https://fontawesome.com/search?o=r&m=free
 
+**Backend**
 
+- Roda o projeto backend
+```
+node --watch server.js
+```
 
+- Plugin VSCode
+    - `Separators`
+
+- Exemplo
+    - fullstack_11
