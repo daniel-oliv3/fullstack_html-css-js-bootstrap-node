@@ -555,3 +555,22 @@ node --watch server.js
 
 - Exemplo
     - fullstack_11
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 12 - APRESENTACAO DAS TAREFAS
+
+
+
+- Exemplo
+    - fullstack_12
