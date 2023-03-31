@@ -570,7 +570,10 @@ node --watch server.js
 
 ### 12 - APRESENTACAO DAS TAREFAS
 
-
+- Roda o projeto backend
+```
+node --watch server.js
+```
 
 - Exemplo
     - fullstack_12
