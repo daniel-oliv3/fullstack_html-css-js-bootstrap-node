@@ -568,7 +568,7 @@ node --watch server.js
 
 
 
-### 12 - APRESENTACAO DAS TAREFAS
+### 12 - APRESENTAÇÃO DAS TAREFAS
 
 - Roda o projeto backend
 ```
@@ -577,3 +577,25 @@ node --watch server.js
 
 - Exemplo
     - fullstack_12
+
+
+
+### 13 - RESOLUÇÃO DE ERRO DO VÍDEO ANTERIOR
+
+- Roda o projeto backend
+```
+node --watch server.js
+```
+
+- Exemplo
+    - fullstack_13
+
+
+
+
+
+
+
+
+
+
