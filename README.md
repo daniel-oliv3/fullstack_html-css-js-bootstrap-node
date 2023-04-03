@@ -609,4 +609,11 @@ node --watch server.js
 
 ### 15 - LINK PARA ELIMINAR A TASK E AJUSTAMENTOS DE CORES
 
+- Roda o projeto backend
+```
+node --watch server.js
+```
+
+- Exemplo
+    - fullstack_15
 
