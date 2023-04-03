@@ -580,7 +580,7 @@ node --watch server.js
 
 
 
-### 13 - RESOLUÇÃO DE ERRO DO VÍDEO ANTERIOR
+### 13 - RESOLUÇÃO DE ERRO DO EXERCÍCIO ANTERIOR
 
 - Roda o projeto backend
 ```
