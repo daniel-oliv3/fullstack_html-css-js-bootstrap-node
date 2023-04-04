@@ -617,3 +617,15 @@ node --watch server.js
 - Exemplo
     - fullstack_15
 
+
+
+### 16 - PREPARAÇÃO DO SISTEMA PARA ATUALIZAÇÃO DO STATUS - PARTE 1
+
+- Roda o projeto backend
+```
+node --watch server.js
+```
+
+- Exemplo
+    - fullstack_16
+
