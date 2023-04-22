@@ -660,3 +660,12 @@ node --watch server.js
     - fullstack_18
 
 
+### 19 - ATUALIZAÇÃO DAS CORES APÓS ATUALIZAÇÃO DO STATUS
+
+- Roda o projeto backend
+```
+node --watch server.js
+```
+
+- Exemplo
+    - fullstack_19
