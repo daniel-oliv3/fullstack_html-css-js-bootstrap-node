@@ -1,6 +1,26 @@
 /*JavaScript do index.html*/
 let id_user = 1;
 
+/* ------- bg-color ------- */
+let colors = [
+    {
+        task_status: 'new',
+        select_bg_color: 'bg-white'
+    },
+    {
+        task_status: 'in progress',
+        select_bg_color: 'bg-info'
+    },
+    {
+        task_status: 'canceled',
+        select_bg_color: 'bg-danger'
+    },
+    {
+        task_status: 'done',
+        select_bg_color: 'bg-success'
+    },
+]
+
 window.onload = () => {
 
     get_username(id_user);
@@ -47,30 +67,6 @@ function get_user_tasks(id_user){
             document.querySelector("#total_tasks").classList.add("d-none");
         } else {
             document.querySelector("#tasks_container").innerHTML = null;
-
-
-
-            /* ------- bg-color ------- */
-            let colors = [
-                {
-                    task_status: 'new',
-                    select_bg_color: 'bg-white'
-                },
-                {
-                    task_status: 'in progress',
-                    select_bg_color: 'bg-info'
-                },
-                {
-                    task_status: 'canceled',
-                    select_bg_color: 'bg-danger'
-                },
-                {
-                    task_status: 'done',
-                    select_bg_color: 'bg-success'
-                },
-            ]
-
-
 
             tarefas.forEach(tarefa => {
 
@@ -131,15 +127,23 @@ function change_task_status(id_task){
 
     let status = document.querySelector("#task_status_" + id_task).value;
 
-    fetch(`http://localhost:3000/user/${id_user}/tasks/update_status/`, {
+    fetch(`http://localhost:3000/user/tasks/update_status`, {
         method: 'POST',
         headers: {'Content-Type' : 'application/json'},
-        body:JSON.stringify({id_user, id_task, status})
+        body:JSON.stringify({id_task, status})
     })
     .then(response => {
-        console.log(response);
+        if(response.status === 200){
+            return response.json();
+        }
+    })
+    .then(dados => {
+        console.log(dados);    
     });
-    
+
+    // update select color based on task status
+    let color = colors.find(e => e.task_status == status);
+    console.log(color);
 }
 
 

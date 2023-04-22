@@ -57,11 +57,16 @@ app.get("/user/:id/tasks/", (req, res) => {
 
 
 /*--------------------------------------------*/
-app.post("/user/:id/tasks/update_status", (req, res) => {
-    console.log(req.params.id);
-    console.log(req.body.id_task);
-    console.log(req.body.status);
-    res.send('Finalizado...');
+app.post("/user/tasks/update_status/", (req, res) => {
+    // console.log(req.body.id_task);
+    // console.log(req.body.status);
+
+    connection.query("UPDATE tasks SET task_status = ?, updated_at = NOW() WHERE id = ?", [req.body.status, req.body.id_task], (err, results) => {
+        if(err){
+            res.send('MySQL connection error.');
+        }
+    });
+    res.json('ok..');
 });
 
 
