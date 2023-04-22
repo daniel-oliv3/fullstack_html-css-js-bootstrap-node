@@ -639,6 +639,10 @@ node --watch server.js
 node --watch server.js
 ```
 
+- id_user
+- id_task
+- status
+
 - Exemplo
     - fullstack_17
 

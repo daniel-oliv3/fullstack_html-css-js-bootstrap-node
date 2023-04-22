@@ -1,18 +1,18 @@
 /*JavaScript do index.html*/
+let id_user = 1;
+
 window.onload = () => {
 
-    let id = 1;
-
-    get_username(id);
-    get_user_tasks(id);
+    get_username(id_user);
+    get_user_tasks(id_user);
 
 }
 
 
 /*------------------------------------------------------------*/
-function get_username(id){
+function get_username(id_user){
 
-    fetch(`http://localhost:3000/user/${id}`)
+    fetch(`http://localhost:3000/user/${id_user}`)
     .then(response => {
         if(response.status === 200){
             return response.json();
@@ -31,9 +31,9 @@ function get_username(id){
 
 
 /*------------------------------------------------------------*/
-function get_user_tasks(id){
+function get_user_tasks(id_user){
 
-    fetch(`http://localhost:3000/user/${id}/tasks`)
+    fetch(`http://localhost:3000/user/${id_user}/tasks`)
     .then(response => {
         if(response.status === 200){
             return response.json();
@@ -113,22 +113,33 @@ function get_user_tasks(id){
 }
 
 
+
 /*------------------------------------------------------------*/
 function edit_task(id_task){
     console.log(id_task);
 }
+
 
 /*------------------------------------------------------------*/
 function delete_task(id_task){
     console.log(id_task);
 }
 
-/*------------------------------------------------------------*/
-function change_task_status(id_task){
-    console.log(id_task);
 
-    let value = document.querySelector("#task_status_" + id_task).value;
-    console.log(value);
+/*------------------------------------------------------------*/
+function change_task_status(id_task){   
+
+    let status = document.querySelector("#task_status_" + id_task).value;
+
+    fetch(`http://localhost:3000/user/${id_user}/tasks/update_status/`, {
+        method: 'POST',
+        headers: {'Content-Type' : 'application/json'},
+        body:JSON.stringify({id_user, id_task, status})
+    })
+    .then(response => {
+        console.log(response);
+    });
+    
 }
 
 

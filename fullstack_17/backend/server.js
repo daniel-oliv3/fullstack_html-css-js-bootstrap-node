@@ -19,7 +19,7 @@ app.listen(3000, () => {
 
 
 app.use(cors());
-
+app.use(express.json());
 
 /*Rotas*/
 /*--------------------------------------------*/
@@ -56,11 +56,23 @@ app.get("/user/:id/tasks/", (req, res) => {
 
 
 
+/*--------------------------------------------*/
+app.post("/user/:id/tasks/update_status", (req, res) => {
+    console.log(req.params.id);
+    console.log(req.body.id_task);
+    console.log(req.body.status);
+    res.send('Finalizado...');
+});
+
+
+
+
+
 
 
 /*
     Autor: Daniel Oliveira
     Email: danieloliveira.webmaster@gmail.com
     Manaus/Amazonas/Brasil
-    30/03/2023
+    22/04/2023
 */
