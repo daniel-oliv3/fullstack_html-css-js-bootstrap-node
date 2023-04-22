@@ -137,13 +137,21 @@ function change_task_status(id_task){
             return response.json();
         }
     })
-    .then(dados => {
-        console.log(dados);    
-    });
+    // .then(dados => {
+    //     console.log(dados);    
+    // });
 
     // update select color based on task status
-    let color = colors.find(e => e.task_status == status);
-    console.log(color);
+    let color_obj = colors.find(e => e.task_status == status);
+    let select = document.querySelector(`#task_status_${id_task}`);
+    // console.table([color_obj, select]);
+
+    let colors_tmp = colors.map(c => { return c.select_bg_color });
+    // console.log(colors_tmp);
+    // console.log(...colors_tmp);
+
+    select.classList.remove(...colors_tmp);
+    select.classList.add(color_obj.select_bg_color);
 }
 
 
