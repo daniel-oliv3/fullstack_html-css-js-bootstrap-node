@@ -648,9 +648,15 @@ node --watch server.js
 
 
 
+### 18 - PREPARAÇÃO DO SISTEMA PARA ATUALIZAÇÃO DO STATUS - PARTE 3
 
 
+- Roda o projeto backend
+```
+node --watch server.js
+```
 
-
+- Exemplo
+    - fullstack_18
 
 
